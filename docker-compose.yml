@@ -33,9 +33,6 @@ services:
       - db
     networks:
       - test
-    environment:
-      - baselineOnMigrate=true
-      - table=flyway_schema_history
 
 networks:
   test:
